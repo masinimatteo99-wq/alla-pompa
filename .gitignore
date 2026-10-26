@@ -1,0 +1,25 @@
+node_modules/
+.tools/
+coverage/
+dist/
+playwright-report/
+test-results/
+.DS_Store
+
+# Archivi personali e configurazioni locali: non pubblicare.
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!demo-50-rifornimenti.json
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+backups/
+private/
+*.local
+/scripts/*.command
